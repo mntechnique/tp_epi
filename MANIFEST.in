@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tp_epi *.css
+recursive-include tp_epi *.csv
+recursive-include tp_epi *.html
+recursive-include tp_epi *.ico
+recursive-include tp_epi *.js
+recursive-include tp_epi *.json
+recursive-include tp_epi *.md
+recursive-include tp_epi *.png
+recursive-include tp_epi *.py
+recursive-include tp_epi *.svg
+recursive-include tp_epi *.txt
+recursive-exclude tp_epi *.pyc
